@@ -1,0 +1,99 @@
+  .wk_02_zj01{
+            width: 70%;
+            margin-top: 1%;
+        }
+        
+        @media screen and (max-width:768px){
+            .wk_02_zj01-1{
+                margin-left: 25px;
+                margin-top: 17px;
+            }
+            .gxq_1_1{
+                padding-bottom: 17%;
+            }
+            .wk_02_gnan01{
+                position: absolute;
+                top: 4000%;
+                left: -3%;
+            }
+            .wk_02_gnan02{
+                position: absolute;
+                top: 1%;
+                left: 10%;
+            }
+            .wk_02_gnan03{
+                position: absolute;
+                top: 4000%;
+                left: 40%;
+            }
+        }
+        @media (min-width:768px)  and (max-width:992px){
+            .wk_02_zj01-1{
+                margin-left:6%;
+                margin-top:5%;
+            }
+        }
+        @media (min-width:992px)  and (max-width:1200px){
+            .wk_02_zj01-1{
+                margin-left:6%;
+                margin-top:5%;
+            }
+        }
+
+
+        .gxq_1{
+            margin-top: 1%;
+            text-align: center;
+        }
+        .gxq_1 p{
+            line-height: .8;
+            color: #B4B5B7;
+            font-size: 1.1vw;
+        }
+        .gxq_1 .wk_02_btdx{
+            font-size: 1.5vw;
+            color: #000;
+        }
+        .gxq_1 img{
+            margin-top: 3%;
+        }
+        .wk_02_gnanhz{
+            margin-left: 12%;
+        }
+        .gxq_1_1{
+            margin-top: 2%;
+            position: relative;
+        }
+
+        .wk_02_zj01-1{
+            margin-left: 23px;
+            margin-top: 23px;
+            border: 2px solid gray;
+            position: relative;
+        }
+        .upload_kit_wrap{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .preview{
+            width: 100%;
+        }
+        .preview img{
+            width: 100%;
+        }
+        .crtppd{
+            position: absolute;
+            width:100%;
+            height:100%;
+            left:0.1%;
+            background: rgba(0,0,0,0);
+        }
+        .crtppd_tp{
+            width: 20%;
+            height: 20%;
+            position: absolute;
+            top:40%;
+            left: 40%;
+            display: none;
+        }

@@ -1,0 +1,394 @@
+
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.container-fluid{
+	margin: 0 auto;
+}
+.x-nav2 img{
+	width: 100%;
+	height: 50%;
+}
+.x-nav2{
+	margin-top: 8px !important;
+	width: 100%;
+}
+
+.x-con2ps{
+	margin-top: 25px !important;
+	text-align: center;
+}
+.x-con2ps p{
+	line-height: 1.9;
+}
+.x-con2ps p:nth-child(1){
+	font:1.4em '微软雅黑';
+	line-height: 1.9;
+}
+.x-con2ps a{
+	font-size: 0.8em;
+	text-decoration: underline;
+	color: #9b9d9f;
+}
+.x-nav2 img{
+	cursor: pointer;
+}
+.x-nav2 .x-con2a{
+	display: block;
+	width: 165px;
+	height: 35px;
+	margin: 25px auto 25px !important;
+}
+.x-con2a img{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-dialog-x{
+	margin: 0 auto !important;
+	height: 100%;
+}
+@media screen and  (min-width: 768px) {
+
+	.modal-dialog-x {
+		width: 720px;
+	}
+	.x-con2foot{
+		margin-top: 0 !important;
+	}
+}	
+@media screen and  (max-width: 768px) {
+
+	.modal-dialog-x {
+		width:100%;
+		height: 100%;
+	}
+	.modal-title-x{
+		font-size: 1.2em;
+	}
+	.modal-body-x p{
+		font-size: 0.8em;
+	}
+	
+}
+
+.modal-header-x{
+	padding-top: 10% !important;
+	border: 0 !important;
+}
+.modal-title-x{
+	display: inline-block;
+	font-size: 2em;
+	color: #fff;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	margin-left: 4%  !important;
+
+}
+#myModal-x,#x-myModal1{
+	background-color:rgba(1,1,1,.6);
+}
+.modal-content-x{
+	margin-top: 10% !important;
+	background-color: rgba(238,238,238,.2);
+	
+	height: 90%;
+}
+.modal-body-x{
+	height:78%;
+	overflow-y:auto !important;
+	margin: 0 12% !important;
+}
+/*.x-con2Body::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	-webkit-box-shadow:inset 0 0 5px rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.2);
+}
+.x-con2Body::-webkit-scrollbar-track{
+	border-radius: 0px;
+	-webkit-box-shadow:inset 0 0 5px rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.1);
+}
+*/
+/*滚轮样式*/
+.x-con2Body::-webkit-scrollbar{
+	width: 8px;
+}
+.x-con2Body::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0,.2);
+}
+.x-con2Body::-webkit-scrollbar{
+	width: 8px;
+}
+.x-con2Body::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0,.2);
+	background:#aaa;
+}
+.modal-body-x p{
+	font-size: 1.2em;
+	color: #fff;
+	margin-top: 2% !important;
+	text-align: left;
+}
+.modal-body-x p:first-child{
+	font-size: 1.2em;
+	color: #fff;
+}
+.close{
+	display: block;
+	margin-right: 4%;
+	background-color: red;
+}
+.modal-header-x .mo1_span,.zanting_q{
+	
+    display: inline-block;
+    width: 28px;
+    height: 30px;
+    background-color: red;
+    background: url(../images/ico_02.png);
+    background-repeat: no-repeat;
+    background-position:-209px -81px;
+}
+.zanting_q{
+	font-size: 2.0em;
+	color: #fff !important;
+}
+.x-con2footer{
+	margin: 25px 0 30px 0!important;
+}
+.x-conFta1,.x-conFta2{
+	display: inline-block;
+
+}
+.x-conFta2{
+	margin-left: 5% !important;
+}
+.x-con2footer img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* 创作玩酷短片 */
+.container{
+	margin: 0px auto 0px !important;
+}
+
+.x-wk2-1{
+	margin-top: 1% !important;
+	text-align: center;
+	background-image: url(../images/cell_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}	
+
+.x-c21-top img{
+	width: 224px;
+	height: 130px;
+}
+.x-c21-bottom{
+	width: 224px;
+	margin: 0 auto !important; 
+}
+.x-ct2-1lf{
+	float: left;
+}
+.x-ct2-1rg{
+	float: right;
+}
+
+.x-yanjing{
+	display: inline-block;
+	background-image: url(../images/ico_02.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.x-c21-bgi{
+	width: 66px;
+	height: 66px;
+	border-radius: 33px;
+	background-image: url(../images/ico_02.png);
+	background-repeat: no-repeat;
+	background-position:-11px -10px;
+	position: absolute;
+	top: 28%;
+	left: 40%;
+	z-index: 10;
+	display: none;
+}
+.x-c21-top:hover .x-c21-bgi{
+	display: block;
+}
+.x-xulie{
+	position: relative;
+	text-align: center;
+	margin:0 auto !important;
+	margin-top: 3% !important;
+}
+.x-xulie ul{
+	margin:0 auto !important;
+	text-align: center;
+}
+
+.x-xulie li{
+	list-style: none;
+	float: left;
+	margin:0 3% !important;
+	font:1.4em '微软雅黑';
+}
+
+.x-con2-1Span{
+	display: inline-block;
+	width: 25.6px;
+	height: 25.6px;
+	border-radius: 13px;
+	border: 1px solid pink !important;
+	background-color: orange;
+	color: #fff;
+	text-align: center;
+	line-height: 25.6px;
+}
+
+
+
+
+.x-chuanjianwanku1{
+	display: none;
+}
+.x-chuanjianwanku{
+	display: block;
+}
+
+/*创作玩酷短片 的模态框视频 */
+.video-x1{
+	width: 70vw;
+	margin:0 auto !important;
+}
+.modal-content-x1{
+	margin: 2% auto !important;
+}
+.modal-content-x1,.video_hide-x1{
+	width:70vw;
+}
+.modal-dialog{
+	width: 100%  !important;
+}
+.modal-dialog-x1{
+	margin:0 auto !important;
+}
+.modal-header-x1{
+	border: 0;
+	position: relative;
+}
+.zanting_q{
+	position: absolute;
+	top: 1%;
+	right: -7%;
+}
+.x-jiazaigengduo{
+	text-align: center;
+	display: none;
+}
+@media screen and  (min-width: 768px) {
+	.x-c21-top{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+	}
+	.xcon2-1-footphoto{
+		margin-top: 10px !important;
+	}
+}	
+@media screen and  (max-width: 768px) {
+	.x-c21-top,.x-c21-top img{
+		width: 160px;
+		height: 98px;
+		margin: 0 auto !important;
+	}
+	.x-c21-bottom{
+		width: 160px;
+		line-height: 1.0 !important;
+	}
+	.x-c21-bottom span{
+		font-size:10px !important;
+	}
+	.xcon2-1-footphoto{
+		text-align: center;
+	}
+	.xcon2-1-footphoto img{
+		width: 80%;
+		text-align: center;
+	}
+	.x-wk2-1{
+		-webkit-background-size: 166px;
+		background-size: 166px;
+	}
+	.x-c21-bgi{
+		top: 16%;
+		left: 36%;
+	}
+	.x-xulie {
+		display: none;
+	}
+	.x-jiazaigengduo{
+		margin: 3% auto !important;
+		text-align: center;
+		display: block;
+	}
+	.x-jiazaigengduo img{
+		width: 40%;
+		height: 40%;
+
+	}
+}	
+@media screen and  (max-width: 1200px){
+	.x-xulieUl{
+		width: 80%;
+		position: absolute;
+		top: 0;
+		left: 33%;
+	}
+	.x-con21-footer{
+		margin:2% auto 5% !important;
+	}
+}
+@media screen and  (min-width: 1200px) {
+	.x-xulieUl{
+		position: absolute;
+		top: 0;
+		left: 33%;
+	}
+	.xcon2-1-footphoto {
+		margin-top: 5% !important;
+	}
+	.x-con21-footer{
+		margin:2% auto 5% !important;
+	}
+
+}	
+.xcon2-1-footphoto,.x-con21-footer{
+	text-align: center;
+}
+
+@media screen (min-width: 768px)  and   (max-width: 1200px) {
+	.x-xulie{
+		margin:3% auto !important;
+	} 
+
+}
+.x-content2 .x-con2ps .tyuio,.ghjkl{
+	font-size: 1em !important;
+}
+.x-content2 .x-con2ps .tyuio:hover,.ghjkl:hover{
+	color: red;
+}
+.qwdvbn{
+	margin-top: 8px;
+}

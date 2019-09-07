@@ -1,0 +1,122 @@
+.head{
+	margin-bottom: 15px; 
+}
+.input_img{
+	width: 165px;
+	height: 165px;
+	box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0,.6);
+	background: url(../images/add_photo_plus.png) no-repeat;
+	background-position: center;
+	display: inline-block;
+	position: relative;
+	margin-right:35px; 
+	margin-bottom: 35px;
+
+}
+.input_content{
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 10%;
+}
+.input_img input{
+	width: 165px;
+	height: 165px;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+.input_img_hide{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	display: none;
+}
+.input_hover{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient( 0deg, rgba(0,0,0,0.7) 50%, transparent 50% );
+	background-size: 165px 2px;
+	z-index: 3;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.input_hover_delete{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 20%;
+	left:20%;
+	background: url(../images/del.png) no-repeat center;
+	z-index: 3;	
+	display: none;
+}
+.input_img_hide img{
+	width: 90%;
+	height: 60%;
+	position: absolute;
+	top:33px;
+	left: 8.5px;
+	z-index: 1;
+}
+.content_text{
+	text-align: center;
+}
+.content_text p:nth-child(1){
+	font-weight: bold;
+	font-size: 20px;
+}
+.content_text p:nth-child(2){
+	color: #666;
+}
+.fenge_img{
+	width: 80%;
+	/*width: 948px;*/
+	margin: 0 auto;
+}
+.fenge_img img{
+	width: 100%
+}
+/*.img_bottom_button img{
+	width: 100%
+}*/
+.img_bottom_button_left{
+	width: 40%;
+	text-align: right;
+}
+.img_bottom_button_left img{
+	width: 35%;
+	/*cursor: pointer;*/
+}
+.img_bottom_button_center{
+	width: 20%;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+.img_bottom_button_center img{
+	width: 100%;
+	cursor: pointer;
+}
+.img_bottom_button_right{
+	width: 40%;
+	text-align: left;
+	/*cursor: pointer;*/
+}
+.img_bottom_button_right img{
+	width: 35%;
+}
+.img_bottom_button_center input{
+	position: absolute;
+	top: 0;
+	left: 5%;
+	width: 90%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+}

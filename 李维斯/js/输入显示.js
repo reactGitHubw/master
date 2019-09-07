@@ -1,0 +1,39 @@
+$(function(){
+	function aaa() {
+		$('.w-xn-3').width($('.ipt-w').width());
+	}
+	setInterval(aaa,10)
+
+	$('.winput1').keydown(function(ev){
+		if(ev.keyCode==13){
+			$('.p1').text($(this).val()).css('textAlign','center');
+			$(this).val('');
+		}
+	})
+	$('.winput2').keydown(function(ev){
+		if(ev.keyCode==13){
+			$('.p2').text($(this).val());
+			$(this).val('');
+			$('.p2').css('textAlign','center');
+		}
+	})
+	$('.winput1').keyup(function(){
+		$('.p1').text($('.winput1').val())
+	})
+	$('.winput2').keyup(function(){
+		$('.p2 ').text($('.winput2').val())
+	})
+	$('..')
+})
+$(function(){
+	$('.x-shang').hover(function(){
+		$(this).attr('src','images/button/btn_prev_on.png')
+	},function(){
+		$(this).attr('src','images/button/btn_prev_off.png')
+	})
+	$('.x-xia').hover(function(){
+		$(this).attr('src','images/button/btn_preview_on.png')
+	},function(){
+		$(this).attr('src','images/button/btn_preview_off.png')
+	})
+})

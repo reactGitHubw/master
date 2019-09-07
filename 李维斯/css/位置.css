@@ -1,0 +1,117 @@
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+.pino div{
+    padding: 0;
+}
+.pino input{
+    height: 2vw;
+    width: 90%;
+    padding: 0;
+    text-align: center;
+    font-size: 0.4xw;
+    border-radius: 2px;   
+    border: 1px solid #c2c2c2;  
+}
+.cot05_input01 input{
+    background-color:#c2c2c2;
+}
+.cot05_input01{
+    position: relative;
+}
+.cot05_input01 i{
+    position: absolute;
+    top: 0.1vw;
+    right: 2vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.cot05_input02 input{
+    background-color:#c2c2c2; 
+}
+.cot05_input02{
+    position: relative;
+}
+.cot05_input02 i{
+    position: absolute;
+    top: 0vw;
+    right: 2vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.cot05_input03 input{
+    background-color:#c2c2c2; 
+}
+.cot05_input03{
+    position: relative;
+}
+.cot05_input03 i{
+    position: absolute;
+    top: 0vw;
+    right: 2vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.cot05_input04 input{
+   
+}
+.cot05_input04{
+ position: relative;
+}
+.cot05_input04 span{
+    position: absolute;
+    top: 0;
+    right: 0.5vw;
+    width: 2vw;
+    height: 2vw;
+}
+.cot06_ewm p{
+    position: relative;
+    left: 8vw;
+    bottom: 5vw;
+    font-size: 1vw;
+}
+
+.contant_06 {
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    background: #e1e1e1;
+    padding-bottom: 2%;
+    overflow: hidden;
+}
+.cot06_gz p{
+    font-size: 1vw;
+    position: relative;
+    left: 15vw;
+    bottom: 8vw;
+}
+.cot06_gz img:hover{
+    opacity: .4;
+}
+.cot06_ewm {
+    margin-left: 15%;
+}
+
+.cot06_ewm img:nth-child(1) {
+    width: 7vw;
+}
+
+.cot06_ewm img:nth-child(2) {
+    width: 13vw;
+}
+
+.cot06_gz {
+    height: 8vw;
+    line-height: 8vw;
+    margin-left: 20%;
+}
+
+.cot06_gz img {
+    width: 3vw;
+    margin-right: 1%;
+    cursor: pointer;
+}

@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.jzdw{
+	margin: 8px 0 20px 0;
+}
+.jzdw-1{
+	border: 0;
+}
+.jzdw-2{
+	position: relative;
+	padding: 0;
+	margin-top: 15px;	
+	width: 77%;
+}
+.jzdw-2 video{
+	width: 100%;
+	height: 100%;
+}
+
+.beijing{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,.5); 
+	position: absolute;
+	top: 0;
+	left:0;
+}
+
+.jzdw-21{
+	position: absolute;
+	top: 30%;
+	left: 42%;
+}
+
+/*  第一个模态框   固定数值  如何改用百分比？？？？？  */
+.modal-header h4{
+	color: #fff;
+	padding: 14px 0;
+}
+.input10{
+	width: 284px;
+	height: 30px;
+}
+#myModal{
+	width:406px;
+	margin: 0 auto;
+	position: fixed;
+	top: 30%;
+}
+.modal-footer{
+	margin-top: 62px;
+}
+.modal-content{
+	padding: 30px 58px 40px;
+
+}
+.modal-content .modal-footer{
+	text-align: left;
+}
+.modal-footer .btn-lg,.modal-footer .btn-default{
+	width: 139px;
+	height: 34px;
+	line-height: 34px;
+	padding: 0;
+}
+.modal-footer .btn{
+	background-color: black;
+	opacity: .8;
+	color: #fff;
+	border:1px solid #fff;
+}
+.btn-lg{
+	font-weight: normal;
+	font-size: 14px;
+}
+.modal-header,.modal-body,.modal-footer{
+	width: 100%;
+	padding: 0;
+}
+.modal-content{
+	margin: auto;
+	background-color: black;
+	opacity: .8;
+}
+.modal-footer,.modal-header{
+	border: 0;
+}
+.x-jiazaishow{
+	color: #fff !important;
+}
+.x-jiazaishow:hover{
+	color: #fff !important;
+}
+
+/* 第二个模态框 二维码的模态框*/
+#myModal1{
+	position: fixed;
+	top: 30%;
+}
+.modal-content_x{
+	width: 400px;
+	background-color: black;
+	opacity: .8;
+	border-radius: 6px;
+	margin: 0 auto;
+}
+.modal-body_x{
+	padding: 0 14px;
+	text-align: center;
+}
+.modal-header_x{
+	padding: 10px 10px 0;
+	text-align: right;
+	
+}
+.x_modalImg{
+	width: 111px;
+	height: 157px;
+	padding-top: 14px;
+	padding-bottom: 32px;
+}
+.modal-title_x,.modal-titleP{
+	color: #fff;
+}
+.modal_xSpan{
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-image: url(../images/ico_021.png);
+	background-repeat: no-repeat;
+	background-position: 0 -226px
+}
+.close1{
+	border: 0;
+	background-color: black;
+	opacity: .8;
+}
+/*@media screen and  (max-width: 768px){
+	#myModal{
+		width: 80%;
+	}
+	#myModal1{
+		width: 80%;
+	}
+	.input10{
+	width: 284px;
+	height: 30px;
+}
+#myModal{
+	width:406px;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen (max-width: 768px) {
+	.modal-header h4{
+		color: #fff;
+	}
+	.modal-content{
+		width: 208px;
+		margin: auto;
+		background-color: black;
+		opacity: .8;
+	}
+	.modal-body{
+		width: 80%;
+	}
+
+	.modal-footer button{
+		margin: auto;
+		width: 47%;
+	}
+	.modal-footer,.modal-header{
+		border: 0;
+	}
+
+}

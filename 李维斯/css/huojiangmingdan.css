@@ -1,0 +1,207 @@
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+
+
+
+
+.video1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    z-index: 120;
+    display: none;
+}
+.video2{
+    width: 70%;
+    margin: 5% auto;
+}
+.close{
+    position: absolute;
+    top: 5%;
+    right:10%;
+}
+.close img{
+    width: 5vw;
+}
+
+.xiaojiantou img:nth-child(2){
+    display: none;
+}
+
+
+
+
+
+.top-wenzi-left{
+    margin-top: 10%;
+}
+.top-wenzi-left p:nth-child(1){
+    font-size: 1.5vw;
+}
+.top-wenzi-left p+p{
+    font-size: .8vw;
+}
+.top-button-left{
+    margin-top: 5%;
+}
+.top-button-left img:nth-child(1){
+    width: 10vw;
+    cursor: pointer;
+}
+.top-button-left img:nth-child(2){
+    width: 10vw;
+    margin-left: 10%;
+    cursor: pointer;
+}
+@media screen and (max-width:768px){
+    .top-wenzi-left p{
+        overflow: hidden;
+        height: 10px;
+    }
+}
+
+/* 内容部分 */
+.content-video{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 1%;
+}
+.content-wenzi{
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.row .content-video li{
+    float: left;
+    border: 2px solid #eee;
+    border-radius: 3%;
+    position: relative;
+    width: 17.6%;
+}
+.row .content-video li:first-child{
+    margin-left: 2% !important;
+}
+.content-video li p{
+    margin: 0 !important;
+    font-size: 0.8vw;
+    font-weight: 700;
+    padding-left: 0.5vw;
+    width: 100%;
+}
+.content-video li img{
+    width: 100%;
+    /*width: 12vw;*/
+    cursor: pointer;
+}
+@media screen and (max-width:550px){
+    .row .content-video li{
+        margin-right: 2% !important;
+    }
+    .row .content-video li:last-child{
+        margin-right:0 !important;
+    }
+    .content,.more,.section-06{
+        display: none;
+    }
+    .huojiang_shoujiduan,.more-center_1{
+        display: block !important;
+    }
+    .close{
+        top: 4% !important;
+        right: 9% !important;
+    }
+    .video2{
+        margin: 33% auto !important;
+    }
+}
+.row .content-video li img:nth-child(2){
+    display: none;
+    position: absolute;
+    top: 1px;
+    opacity: 0.8;
+}
+
+/* 更多产品按钮 */
+.more-center{
+    margin: o auto;
+    text-align: center;
+    margin-top: 3%;
+    cursor: pointer;
+}
+.more-center img{
+    width: 8vw;
+}
+
+
+
+/*手机端*/
+.huojiang_shoujiduan{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    display: none;
+}
+.huojiang_shoujiduan .shangfang_img{
+    margin-top: 40px;
+    width: 380px;
+}
+.huojiang_shoujiduan .anniu_a{
+    position: absolute;
+    top: 135px;
+    left: 94px;
+}
+.huojiang_shoujiduan .header_img{
+    width: 550px;
+    height: 300px;
+    background-color: #E2E3E5;
+    background-image: url(../images/01.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 147.5px 185px;
+}
+.banner_shouji{
+    text-align: center;
+}
+.banner_shouji .content-wenzi p{
+    font-size: 16px;
+    color: #bbb;
+}
+.banner_shouji>img{
+    width: 480px;
+    margin-top: -20px;
+}
+.banner_shouji li{
+    width: 90%;
+    height: 40px;
+    margin: 5px auto;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+    line-height: 55px;
+    
+}
+.banner_shouji li span{
+    height: 20px;
+    float: left;
+}
+.banner_shouji li a{
+    height: 20px;
+    color: #aaa;
+    float: right;
+    cursor: pointer;
+}
+.more-center_1{
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.ckin__player .default__button--big,.default__button,.progress{
+    display: none !important;
+}s

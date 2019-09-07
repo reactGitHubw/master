@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FileKit Demo</title>
+
+    <style type="text/css">
+        body{margin: 0;padding: 0;background: #FFEEFF}
+        div.upload_kit_wrap{border: 1px solid #FF9900;background: #0099FF;width: 300px;height: 250px}
+        div.preview{width: 300px}
+        div.preview img{width: 100%;height: auto}
+    </style>
+
+    <script type="text/javascript" language="javascript" src="js/vendor/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" language="javascript" src="js/vendor/swfobject.js"></script>
+    <script type="text/javascript" language="javascript" src="js/file_kit.js"></script>
+
+    <script type="text/javascript" language="javascript">
+        var filekit = null;
+        var $previewView = null;
+
+        $(document).ready(function()
+        {
+            $previewView = $("div.preview");
+            filekit = new FileKit($("div.upload_kit_wrap"));
+            filekit.bind("selected",function(){fileSelectHandler();});
+        });
+
+        function fileSelectHandler()
+        {
+            var self = this;
+            var imgData = filekit.imageInfo();
+
+            var $image = $("<img/>");
+            $image.load(function()
+            {
+                $previewView.empty();
+                $previewView.append($image);
+            });
+
+            $image.attr("src",imgData["data"]);
+        }
+    </script>
+</head>
+<body>
+    <div class="upload_kit_wrap" file-kit="file-kit" swf-path="swf/FileKit.swf" max-size="3000000">
+        <div class="no_plugin"><span>对不起，<br/>无法加载上传组件!</span></div>
+    </div>
+    <div class="preview"></div>
+</body>
+</html>
