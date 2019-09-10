@@ -1,0 +1,2 @@
+<button size='mini'  open-type='getuserinfo' bindgetuserinfo="temp">获取值</button>
+<view>{{city}}</view>

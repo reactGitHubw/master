@@ -1,1 +1,16 @@
-你好吗？
+<view wx:for="{{students}}">{{item.name}}——{{item.number}}——{{item.gender}}——{{item.age}}</view><!-- wx:for相当于key值，冒号里面的就是value值,item是在for循环的时候生成的 -->
+
+<!-- 事件监听改变data -->
+<view>当前计数：{{counter}}</view>
+<button size='mini' bindtap='jiaclick'>+</button>
+<button size='mini' bindtap='jianclick'>-</button>
+
+<!-- 2.获取用户信息的方法 -->
+<button size='mini' open-type='getUserInfo' bindgetuserinfo='handleGetUserInfo'>获取授权</button>
+
+<!-- 3.展示用户信息的方法 -->
+<open-data type="userNickName"></open-data> <!-- 内置组件 --><!-- 展示用户的昵称 -->
+<view>{{city}}</view>
+<open-data type="userAvatarUrl"></open-data> <!-- 内置组件 --><!-- 展示用户的头像 -->
+<input value=""  bindinput="ins"></input>
+
